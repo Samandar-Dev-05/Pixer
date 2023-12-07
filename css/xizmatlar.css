@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* ============ HEADER START ============ */
+
+.header {
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 80px;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    transition: all 0.7s ease;
+}
+
+.header-logo:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.header-logo:active {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 16px;
+    border: 3px solid transparent;
+    transition: all 0.7s ease;
+}
+
+.header-link:hover {
+    border-bottom: 3px solid #191919;
+}
+
+.header-link:active {
+    color: #FFF;
+    background: rgba(25, 25, 25, 0.70);
+    border: 3px solid transparent;
+}
+
+.header-btn a {
+    padding: 8px 16px;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 5px;
+    background: #00BAFC;
+    border: 3px solid transparent;
+    margin-left: 7px;
+    transition: all 0.7s easy;
+}
+
+.header-btn:hover a {
+    color: #00BAFC;
+    font-weight: 400;
+    border: 3px solid #00BAFC;
+    background: #FFF;
+}
+
+.header-btn:active a {
+    background: rgba(0, 186, 252, 0.60);
+    color: #fff;
+    border-color: transparent;
+}
+
+/* ============ HEADER END ============ */
+
+/* ============ HERO START =========== */
+
+.hero {
+    padding: 72px 0;
+}
+
+.hero-title {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    width: 800px;
+    margin: 0 auto;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ============ HERO END ============== */
